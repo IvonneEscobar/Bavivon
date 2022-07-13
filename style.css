@@ -96,6 +96,14 @@
     border-radius: 30px;
 }
 
+.img{
+    transition: transform 1s;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
 .nav{
     display: flex;
     background: transparent;
@@ -221,6 +229,14 @@
     font-size: 50px;
 }
 
+.text{
+    transition: transform 1s;
+}
+
+.text:hover {
+    transform: scale(1.08);
+}
+
 .imgDeliv{
     margin: 20px 0px;
 }
@@ -302,6 +318,14 @@
     width: 290px;
     height: 290px;
     margin-top: 50px;
+}
+
+.c{
+    transition: transform 1s;
+}
+
+.c:hover {
+    transform: scale(1.2);
 }
 
 .linkCatalogo{
