@@ -7,6 +7,27 @@
 
 /* index */
 
+.layout{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'body'
+    'footer';
+    height: 100vh;
+}
+
+.encabezado{
+    grid-area: header;
+}
+
+.cuerpo{
+    grid-area: body;
+}
+
+.pie{
+    grid-area: footer;
+}
+
 .gridComentariosDeliv{
     display: grid;
     grid-gap: 5px;
@@ -70,7 +91,7 @@
 
 }
 
-.bg{  
+.header{  
     background-color: #a5a5a5;
     background: url(./imagenes/WEB.png);
     height: 900px;
@@ -253,7 +274,7 @@
     justify-content: center
 }
 
-.footer{
+.pie{
     background-color: #3a3a3a;
     text-align: center;
 }
