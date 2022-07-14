@@ -6,43 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Bavivon</title>
 </head>
 
-<body>
+<body class="layout">
 	
-    <header class="bg">
-		<div>
-		<nav>
-			<div class="nav">
+    <header>
+		<div class="logo">
 			<img class="logoIndex" src="./imagenes/Untitled-1.png" alt="Nuestro logo Bavivon">
-			<ul>
-				<li class="navLista"> <a href="#"> INICIO </a> </li>	
-				<li class="navLista"> <a href="./PAGINAS/catalogo.html"> ¿QUE VENDEMOS? </a> </li>	
-				<li class="navLista"> <a href="./PAGINAS/visitanos.html"> VISITANOS </a> </li>																							
-				<li class="navLista"> <a href="./PAGINAS/contactanos.html"> CONTACTANOS </a> </li>
-				<li class="navLista"> <a href="./PAGINAS/nuestramarca.html"> NOSOTROS </a> </li>
+		</div>	   
+		<nav>
+				<ul class="nav">
+				<li class="navLista"> <a class="pestaña" href="#"> INICIO </a> </li>	
+				<li class="navLista"> <a class="pestaña" href="./PAGINAS/catalogo.html"> ¿QUE VENDEMOS? </a> </li>	
+				<li class="navLista"> <a class="pestaña" href="./PAGINAS/visitanos.html"> VISITANOS </a> </li>																							
+				<li class="navLista"> <a class="pestaña" href="./PAGINAS/contactanos.html"> CONTACTANOS </a> </li>
+				<li class="navLista"> <a class="pestaña" href="./PAGINAS/nuestramarca.html"> NOSOTROS </a> </li>
 			</ul>
-			</div>
-		</nav>
-	</div>
-	<section>
-		<div class="botonVamos">
-			<a href="https://wa.me/message/OYDHQYIYE6XEK1"> ¡VAMOS! </a>
-	</section>
+		  </nav>
     </header> 
 
 
 
-    <main>
+    <main class="cuerpo">
 		<section>
+		<div class="mediaIndex">
+			<img class="giganteImagen" src="../proyectos/imagenes/WEB.png" alt="">
+		</div>
          <section class="deliveryInfo"> 
 			<div class="textDeliv">	
 			<h1 class="text">NUESTRO SERVICIO DE DELIVERY</h1>
 			</div>
 		 </section>
 		 <section class="flexContainer">
-			<div class="caja1">
+			<div class="caja">
 				<p class="cajaText">
 					Lorem ipsum dolor sit amet consectetur, 
 					adipisicing elit. Ipsum quis autem iusto 
@@ -51,7 +52,7 @@
 					enim. 
 				</p>
 			</div>
-			<div  class="caja2">
+			<div  class="caja">
 				<p class="cajaText">	
 					Lorem ipsum dolor sit amet consectetur, 
 					adipisicing elit. Ipsum quis autem iusto 
@@ -59,7 +60,7 @@
 					enim. 					
 				</p>
 			</div>
-			<div class="caja3">
+			<div class="caja">
 				<p class="cajaText">
 					Lorem ipsum dolor sit amet consectetur, 
 					adipisicing elit. Ipsum quis autem iusto 
@@ -77,11 +78,15 @@
 			</section>
 
 			<section class="textoMasImagen">
-				<div>
+				<div class="text3">
 					<h2>Lorem ipsum dolor sit amet.</h2>
 					<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. expedita fugiat suscipit eius, aliquid dolorum maxime nulla qui odit tempora consequuntur dolores laborum ex. 
 					Fuga et quod cum optio nisi. Ad fuga debitis, quis quae corrupti sequi, quas amet accusamus officiis deleniti atquecorporis reprehenderit eius vel eum error molestias minus
 					hic doloremque iusto? Nesciunt consequatur alias aspernatur incidunt! Omnis.
+					</p>
+					<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. expedita fugiat suscipit eius, aliquid dolorum maxime nulla qui odit tempora consequuntur dolores laborum ex. 
+						Fuga et quod cum optio nisi. Ad fuga debitis, quis quae corrupti sequi, quas amet accusamus officiis deleniti atquecorporis reprehenderit eius vel eum error molestias minus
+						hic doloremque iusto? Nesciunt consequatur alias aspernatur incidunt! Omnis.
 					</p>
 				</div>
 				<div>
@@ -89,8 +94,8 @@
 				</div>         
 			</section>
 
-			<section class="deliveryInfo">
-				<h2>NUESTROS PRODUCTOS MAS ELEGIDOS</h2>
+			<section class="productosElegidos">
+				<h2 class="nuestrosP">NUESTROS PRODUCTOS MAS ELEGIDOS</h2>
 					<div class="imagenesDeProducto">
 						<img class="img" src="./IMAGENES/Screenshot_12 - copia.png" alt="Nuestros productos mas elegidos 1">
 						<img class="img" src="./IMAGENES/Screenshot_13 - copia.png" alt="Nuestros productos mas elegidos 2">
@@ -99,28 +104,20 @@
 						<img class="img" src="./IMAGENES/Screenshot_16 - copia.png" alt="Nuestros productos mas elegidos 5">
 						<img class="img" src="./imagenes/Screenshot_17 - copia.png" alt="Nuestros productos mas elegidos 6">
 					</div> 
-				</section>
+			</section>
 			
-			<section  class="deliveryInfo">
+			<section  class="deliveryInfo2">
 				<h3> ¿QUIERES EMPEZAR TU EXPERIENCIA MARAVILLOSA CON BABIVON? </h3>
 				<h4>  ¡Que esperas! Pon aprueba nuestros productos, ¡YA!</h4>
-				<a href="https://wa.me/message/OYDHQYIYE6XEK1"> ¡COMPREMOS! </a>
-		</section>
+				<a class="compremos" href="https://wa.me/message/OYDHQYIYE6XEK1"> ¡COMPREMOS! </a>
+			</section>
 
-		<section>
-			<h3> ANUNCIO </h3>
-			<h4>  ANCION DESCRIPCION DESCUENTOS</h4>
-			<a href="https://wa.me/message/OYDHQYIYE6XEK1"> QUIERO SABER MAS </a>
-		</section>
-		
-
-		<a href="https://www.whatsapp.com/">
-			<img src="./imagenes/ws.png" alt="Nuestro whasapp" class="wsp" ></a>
-    </main>
+		</section>		
+</main>
 
 	
     
-    <footer class="footer">
+    <footer class="pie">
 		<img class="logo2" src="./imagenes/Untitled-1.png" alt="logo">
 			<ul class="iconos">
 				<li> <a href="https://facebook.com" target="_blank"> <img class="icon" src="./IMAGENES/fb.png"> </a> </li>
