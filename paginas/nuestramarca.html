@@ -7,7 +7,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">	
 	<link rel="stylesheet" href="../style.css">
+	
     <title>BAVIVON</title>
 </head>
 
@@ -46,13 +48,33 @@
 		<section class="preguntas">
 			<h2>¿LLEGASTE HASTA ACÁ?</h2>
 			<h3>Pregúntanos que otra curiosidad tienes de nuestra marca.</h3>
-			<div>
-				<input type="text" placeholder="Te lo respondemos por instagram">
-				<p>
-				  <input type="submit">
-				  <input type="reset">
-				</p>
-			</div>
+			<div  class="mb-3">
+				<label for="exampleFormControlTextarea1" class="form-label">Comentanos</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			  </div>
+			<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+	Enviar
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="staticBackdropLabel">Listos para que se envie</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  Cuando lo envies, despues nos pondremos en contacto contigo
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+		  <button type="button" class="btn btn-primary">Enviar
+		</div>
+	  </div>
+	</div>
+  </div>
 		</section>
     </main>
 
@@ -69,6 +91,9 @@
 			</ul>
 				<p class="cr"> BAVIVON 2022. Todos los derechos son reservados</p>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
