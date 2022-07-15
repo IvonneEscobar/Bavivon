@@ -9,6 +9,7 @@ body {
 }
 /* index */
 
+
 h2 {
   text-align: center;
 }
@@ -82,10 +83,10 @@ h2 {
 }
 
 .logoIndex {
-  height: 40px;
+  height: 50px;
   width: auto;
   margin: 40px 50px;
-  padding: 10px;
+  padding: 0px;
   background-color: #eed4ff;
 }
 
@@ -114,7 +115,7 @@ header {
   align-items: center;
   padding: 20px;
   border: 1px solid mediumslateblue;
-  height: 50px;
+  height: 90px;
   align-items: center;
   justify-content: center;
 }
@@ -175,7 +176,6 @@ nav ul li a {
   height: 150px;
   text-align: center;
   border-radius: 15px;
-  display: flex;
   align-items: center;
   margin: 20px;
 }
@@ -291,7 +291,16 @@ nav ul li a {
 }
 
 /* catalogo */
-
+.imagenesCatalago{
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.card{
+  margin: 50px;
+}
 .catalogo{
   margin-top: 20px;
   padding: 50px;
@@ -581,9 +590,9 @@ margin-top: -20px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    }
 
-  }
-  .smsAyuda{
+   .smsAyuda{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 40px;
@@ -687,8 +696,7 @@ margin-top: -20px;
     margin-right: 0px;
     padding: 0;
   }
-
-
+  
   .deliveryInfo {
     padding: 0px;
   }
@@ -748,11 +756,10 @@ margin-top: -20px;
 
   .cr{
     justify-content: center;
-  }
+}
 
   /* catalogo */
-
-  .catalogo{
+   .catalogo{
     font-size: 25px;
   }
 
@@ -766,5 +773,5 @@ margin-top: -20px;
     padding: 0px;
     font-size: 15px;
   }
-
-}
+  }
+ 
