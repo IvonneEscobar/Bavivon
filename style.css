@@ -279,7 +279,6 @@ nav ul li a {
 
 .logo2 {
   height: 60px;
-  width: 250px;
   margin-top: 35px;
 }
 
@@ -493,17 +492,24 @@ nav ul li a {
     margin: 0;
     padding: 5;
   }
+  .btn{
+    background-color: #a51eff;
+    color: #ffffff;
+  }
 .imagenesCatalago{
   padding: 0;
   margin: 0;
-  width: 250px;
+  margin-bottom: 40px;
 }
-
+.card-title{
+  font-size: 15px;
+  margin: 0;
+}
 .card{
   margin: 0px;
   margin-top: 20px;
   padding: 5px;
-  width: 250px;
+  width: auto;
 }
 .card-body{
   margin: 0;
@@ -561,28 +567,20 @@ nav ul li a {
   margin: 0;
 }
 .textoMasImagen {
-  flex-direction: column;
-  padding: 9px;
+  padding: 15px;
   align-items: center;
   width: 100%;
   height: auto;
-  margin: 0;
+  margin: 0px;
   margin-top: 20px;
 }
 
 .foto1 {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 25px;
   margin-top: 20px;
-  margin-bottom: 10px;
-  padding: 0;
-}
-.text3{
-  width: 680px;
-  text-align: center;
-  margin-top: 30px;
-  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
 }
 
@@ -597,6 +595,12 @@ margin-top: -20px;
 .ubicacion{
   width: 600px;
   height: 300px;
+}
+.card.text-center{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0%;
 }
 }
 
@@ -742,16 +746,15 @@ margin-top: -20px;
     padding: 0;
   }
   
-.card-img-top{
-  size: 80%;
-}
-.card{
-  width: 250px;
-}
+
+
   .card.text-center{
     margin: 0px;
 
 
+  }
+  .card{
+    margin-bottom: 20px;
   }
   .img{
     width: 250px;
@@ -760,8 +763,9 @@ margin-top: -20px;
   }
   .card-body{
     margin: 0;
-    padding: 20px;
+    padding: 10px;
   }
+
 
   .imagenesDeProducto{
     grid-template-columns: repeat(1, 1fr);
