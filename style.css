@@ -305,6 +305,19 @@ nav ul li a {
 .card{
   margin: 50px;
 }
+.btn{
+  background-color: #ff4a4a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+.btn {
+  transition: transform 0.5s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
 .catalogo{
   margin-top: 20px;
   padding: 50px;
