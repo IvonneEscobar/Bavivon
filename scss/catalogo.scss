@@ -1,0 +1,78 @@
+* catalogo */
+.imagenesCatalago{
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.card{
+  margin: 50px;
+}
+.btn{
+  background-color: #ff4a4a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+.btn {
+  transition: transform 0.5s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+.catalogo{
+  margin-top: 20px;
+  padding: 50px;
+  font-size: 50px;
+}
+
+.textito{
+  background-color: #7f0099;
+  padding: 10px;
+  border: 1px solid darkblue;
+  color: white;
+}
+
+.bodyCat {
+  background-color: rgb(245, 245, 245);
+}
+
+.mainCat {
+  margin: 0px 5%;
+}
+
+.c {
+  width: 250px;
+  height: 250px;
+  padding: 45px;
+}
+
+.c {
+  transition: transform 1s;
+}
+
+.c:hover {
+  transform: scale(1.2);
+}
+
+
+.wow {
+  color: #6e2828;
+  text-decoration: none;
+  margin-top: 30px;
+  text-align: center;
+}
+.encuentraLink {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.encuentraLink2 {
+  color: #ffffff;
+  background-color: cornflowerblue;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0px auto;
+}
