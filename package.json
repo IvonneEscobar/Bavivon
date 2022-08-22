@@ -21,5 +21,6 @@
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
-  }
+  },
+  "build-css": "node-sass --include-path scss scss/main.scss css/style.css"
 }

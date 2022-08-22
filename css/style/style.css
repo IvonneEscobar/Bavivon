@@ -273,6 +273,7 @@ nav ul li a {
 
 .pie {
   border: 1px solid;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -290,7 +291,7 @@ nav ul li a {
 
 .cr {
   background-color: rgb(235, 235, 235);
-  color: rgb(226, 226, 226);
+  color: rgb(65, 65, 65);
 }
 
 /* catalogo */
