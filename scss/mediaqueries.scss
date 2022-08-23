@@ -1,56 +1,64 @@
 /* tablet */
 @media only screen and (max-width: 768px) {
-    .logoIndex {
+  .logoIndex {
     height: 30px;
     width: auto;
     margin: 0;
     padding: 5;
   }
-  .btn{
+
+  .btn {
     background-color: $colorprincipal;
     color: #ffffff;
   }
-.imagenesCatalago{
-  padding: 0;
-  margin: 0;
-  margin-bottom: 40px;
-}
-.card-title{
-  font-size: 15px;
-  margin: 0;
-}
-.card{
-  margin: 0px;
-  margin-top: 20px;
-  padding: 5px;
-  width: auto;
-}
-.card-body{
-  margin: 0;
-  padding: 10px;
-}
-  .cr{
+
+  .imagenesCatalago {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .card-title {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .card {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 5px;
+    width: auto;
+  }
+
+  .card-body {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .cr {
     margin-bottom: 0;
   }
-  .d-block{
+
+  .d-block {
     height: 400px;
   }
+
   header {
-    @include flex (unset, center,center,unset);
+    @include flex (unset, center, center, unset);
     padding: 20px;
     border: 1px solid mediumslateblue;
     height: 30px;
   }
-  
+
   .nav {
     display: flex;
   }
-  
+
   nav ul {
     list-style: none;
-    @include flex (row, unset,center,unset);
+    @include flex (row, unset, center, unset);
   }
-  
+
   nav ul li a {
     text-decoration: none;
     color: $colorprincipal;
@@ -58,83 +66,94 @@
     font-size: 10px;
     padding: 25px;
     margin: 0px;
-    
+
   }
-.productosElegidos{
-  padding: 0;
-  margin: 20px;
-}
-.img{
-  width: 200px;
-  height: 200px;
-}
-.icon{
-  padding: 10px;
-  margin-bottom: 10px;
-}
-.text{
-  margin: 0;
-}
-.textoMasImagen {
-  padding: 15px;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  margin: 0px;
-  margin-top: 20px;
-}
 
-.foto1 {
-  width: 200px;
-  height: 200px;
-  border-radius: 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0;
-}
+  .productosElegidos {
+    padding: 0;
+    margin: 20px;
+  }
 
-.hisima{
-  width: 400px;
-}
-.parr{
-margin: 30px;
-margin-top: -20px;
-}
+  .img {
+    width: 200px;
+    height: 200px;
+  }
 
-.ubicacion{
-  width: 600px;
-  height: 300px;
-}
-.card.text-center{
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0%;
-}
+  .icon {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    margin: 0;
+  }
+
+  .textoMasImagen {
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-top: 20px;
+  }
+
+  .foto1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .hisima {
+    width: 400px;
+  }
+
+  .parr {
+    margin: 30px;
+    margin-top: -20px;
+  }
+
+  .ubicacion {
+    width: 600px;
+    height: 300px;
+  }
+
+  .card.text-center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+  }
 }
 
 /* movil */
 @media only screen and (max-width: 320px) {
-  .deliveryInfo{
+  .deliveryInfo {
     padding: 0;
   }
- main{
-  margin: 0;
- }
 
-  .d-block{
+  main {
+    margin: 0;
+  }
+
+  .d-block {
     display: none;
   }
-  .mediaIndex{
+
+  .mediaIndex {
     display: none;
   }
-  .imagenesCatalago{
+
+  .imagenesCatalago {
     padding: 0;
     margin: 0;
     display: inline;
     width: 200px;
   }
-  .cuestionarioSup{
+
+  .cuestionarioSup {
     width: 300px;
     padding: 0;
     margin: 0;
@@ -143,51 +162,60 @@ margin-top: -20px;
     text-align: center;
   }
 
-  .cuestionario{
+  .cuestionario {
     width: max-content;
     margin: 0;
     align-items: center;
     justify-content: center;
     text-align: center;
-    }
+  }
 
-   .smsAyuda{
+  .smsAyuda {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 40px;
   }
-  .mainUbi{
+
+  .mainUbi {
     align-items: center;
     text-align: center;
     justify-content: center;
     margin: 66px;
-    }
-  .encuentra{
+  }
+
+  .encuentra {
     font-size: 25px;
   }
-  .ubicacion{
+
+  .ubicacion {
     width: 250px;
   }
-  .distritosCap{
+
+  .distritosCap {
     margin: 30px;
     padding: 10px;
   }
-  .hisima{
+
+  .hisima {
     width: 250px;
     height: auto;
     margin-top: 0px;
   }
-  .fondomaps{
+
+  .fondomaps {
     width: 150px;
     height: 150px;
   }
-  .lineaFav{
+
+  .lineaFav {
     font-size: 15px;
   }
-  .parr{
+
+  .parr {
     margin: 20px;
     font-size: 10px;
   }
+
   header {
     flex-direction: column;
     background-color: #eed4ff;
@@ -196,26 +224,26 @@ margin-top: -20px;
     margin: 0;
   }
 
-  .historiaTit{
+  .historiaTit {
     margin: 15px;
   }
 
   nav ul {
     list-style: none;
-    display:list-item;
+    display: list-item;
     flex-direction: column;
     align-items: center;
   }
 
-  nav{
+  nav {
     size: 300px;
     text-align: center;
     margin-top: 5px;
     padding: 0;
   }
 
-  .pestaña{
-    
+  .pestaña {
+
     background-color: $colorprincipal;
     color: #ffffff;
     border: 1px solid mediumblue;
@@ -223,7 +251,7 @@ margin-top: -20px;
     border-radius: 5px;
   }
 
-  .navLista{
+  .navLista {
     padding: 0px;
     margin-top: 10px;
   }
@@ -236,9 +264,10 @@ margin-top: -20px;
     height: 700px;
     margin: 0;
   }
-  .giganteImagen{
+
+  .giganteImagen {
     display: none;
-    }
+  }
 
   .foto1 {
     width: 200px;
@@ -249,56 +278,59 @@ margin-top: -20px;
     padding: 0;
   }
 
-  .logoIndex{
+  .logoIndex {
     justify-content: center;
     margin-right: 0px;
     padding: 0;
   }
-  
 
 
-  .card.text-center{
+
+  .card.text-center {
     margin: 0px;
 
 
   }
-  .card{
+
+  .card {
     margin-bottom: 20px;
   }
-  .img{
+
+  .img {
     width: 250px;
     height: 250px;
     padding: 5px;
   }
-  .card-body{
+
+  .card-body {
     margin: 0;
     padding: 10px;
   }
 
 
-  .imagenesDeProducto{
+  .imagenesDeProducto {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
 
-.caja{
-  width: 240px;
-  height: auto;
-  font-size: 12px;
-  padding: 10px;
-}
+  .caja {
+    width: 240px;
+    height: auto;
+    font-size: 12px;
+    padding: 10px;
+  }
 
-  .img{
+  .img {
     width: 180px;
     height: 180px;
     align-items: center;
   }
 
-  .productosElegidos{
+  .productosElegidos {
     text-align: center;
   }
 
-  .botonVamosDeliv{
+  .botonVamosDeliv {
     width: 100px;
     height: 20px;
     padding: 5px;
@@ -306,7 +338,7 @@ margin-top: -20px;
     margin-bottom: 0;
   }
 
-  .botonVamosDeliv a{
+  .botonVamosDeliv a {
     font-size: 80%;
   }
 
@@ -314,14 +346,14 @@ margin-top: -20px;
     flex-wrap: wrap;
   }
 
-  .text{
-    font-size:20px;
+  .text {
+    font-size: 20px;
     align-items: center;
     margin-top: 27px;
     padding: 15px;
   }
 
-  .text3{
+  .text3 {
     width: 250px;
     text-align: center;
     margin-top: 10px;
@@ -329,24 +361,23 @@ margin-top: -20px;
     padding: 0;
   }
 
-  .cr{
+  .cr {
     justify-content: center;
-}
+  }
 
   /* catalogo */
-   .catalogo{
+  .catalogo {
     font-size: 25px;
   }
 
-  .c{
+  .c {
     width: 100px;
     height: 100px;
     padding: 20px;
   }
 
-  .textito{
+  .textito {
     padding: 0px;
     font-size: 30px;
   }
-  }
- 
+}

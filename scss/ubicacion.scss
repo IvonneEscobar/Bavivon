@@ -1,51 +1,57 @@
 .aDonde {
-    text-align: center;
-    padding: 25px;
-    color: white;
-  }
-  
-  .fondomaps{
-    margin: 10px;
-    padding: 15px;
-    background-color: $colorsecundario;
-    border-radius: 20px;
-  }
-  
-  .dato{
-    padding: 40px;
-    color: #ffffff;
-  }
-  .distritosCap {
-    background-color: $colorsecundario;
-    text-align: center;
-    margin: 50px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
-  .distritos {
-    text-align: center;
-    margin: 20px;
-    margin: 25px 20px;
-  }
-  .textoVis{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .encuentra{
-    font-size: 50px;
-    text-decoration:double;
-    padding: 50px;
-    color: $colorprincipalc;
-  }
-  .dis {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 12px;
-  }
-  .ubicacion{
-    width: 90%;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: $colorprincipal;
-  }
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+
+.fondomaps {
+  margin: 10px;
+  padding: 15px;
+  background-color: $colorsecundario;
+  border-radius: 20px;
+}
+
+.dato {
+  padding: 40px;
+  color: #ffffff;
+}
+
+.distritosCap {
+  background-color: $colorsecundario;
+  text-align: center;
+  margin: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.distritos {
+  text-align: center;
+  margin: 20px;
+  margin: 25px 20px;
+}
+
+.textoVis {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.encuentra {
+  font-size: 50px;
+  text-decoration: double;
+  padding: 50px;
+  color: $colorprincipalc;
+}
+
+.dis {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.ubicacion {
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: $colorprincipal;
+}

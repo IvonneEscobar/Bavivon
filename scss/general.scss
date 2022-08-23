@@ -6,15 +6,14 @@ header {
     height: 90px;
     align-items: center;
     justify-content: center;
-    
+
     .logoIndex {
         height: 50px;
         width: auto;
         margin: 40px 50px;
         padding: 0px;
         background-color: $colorsecundario;
-      }
-
+    }
 
     .nav {
         display: flex;
@@ -39,7 +38,7 @@ header {
 }
 
 .pie {
-    text-align: center; 
+    text-align: center;
     background-color: $colorprincipal;
 
     .iconos {

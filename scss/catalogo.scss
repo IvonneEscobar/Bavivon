@@ -1,18 +1,20 @@
-
-.imagenesCatalago{
+.imagenesCatalago {
   text-align: center;
   margin: 20px;
-  @include flex (unset, center,center,unset);
+  @include flex (unset, center, center, unset);
 }
-.card{
+
+.card {
   margin: 50px;
 }
-.btn{
+
+.btn {
   background-color: $colorterceario;
   color: #ffffff;
   border: none;
   border-radius: 10px;
 }
+
 .btn {
   transition: transform 0.5s;
 }
@@ -20,7 +22,8 @@
 .btn:hover {
   transform: scale(1.2);
 }
-.catalogo{
+
+.catalogo {
   margin-top: 20px;
   padding: 50px;
   font-size: 50px;

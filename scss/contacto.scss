@@ -1,27 +1,29 @@
-
-
 .cuestionario {
-    background-color: $colorprincipal;
-    padding: 20px;
-    margin: 20px;
-    margin-bottom: 40px;
-  
-    border-radius: 50px;
-  }
-  .smsAyuda{
-    font-size: 20px;
-    margin-top: 30px;
-  }
-  .cuestionarioSup{
-    text-align: center;
-    width: 400px;
-  }
-   .cuadro{
-    margin-top: 10px;
-    font-size: 25px;
-    color: #ffffff;
-   }
-   .mainUbi{
-    text-align: center;
-    @include flex (column, center,center,unset);
-   }
+  background-color: $colorprincipal;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 40px;
+
+  border-radius: 50px;
+}
+
+.smsAyuda {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.cuestionarioSup {
+  text-align: center;
+  width: 400px;
+}
+
+.cuadro {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.mainUbi {
+  text-align: center;
+  @include flex (column, center, center, unset);
+}
