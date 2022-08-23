@@ -7,7 +7,7 @@
   .fondomaps{
     margin: 10px;
     padding: 15px;
-    background-color: #eed4ff;
+    background-color: $colorsecundario;
     border-radius: 20px;
   }
   
@@ -16,7 +16,7 @@
     color: #ffffff;
   }
   .distritosCap {
-    background-color: rgb(206, 146, 255);
+    background-color: $colorsecundario;
     text-align: center;
     margin: 50px;
     margin-top: 80px;
@@ -36,7 +36,7 @@
     font-size: 50px;
     text-decoration:double;
     padding: 50px;
-    color: #85299c;
+    color: $colorprincipalc;
   }
   .dis {
     font-size: 25px;
@@ -47,5 +47,5 @@
     width: 90%;
     border-radius: 10px;
     padding: 10px;
-    background-color: #4e0083;
+    background-color: $colorprincipal;
   }

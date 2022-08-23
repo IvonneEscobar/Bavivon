@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid mediumslateblue;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+}
+header .nav {
+  display: flex;
+}
+header .nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .nav ul li a {
+  text-decoration: none;
+  color: #7f0099;
+  list-style: none;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.pie {
+  text-align: center;
+  background-color: #8406eb;
+}
+.pie .iconos {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+.pie .iconos .icon {
+  color: #8406eb;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.pie .logo2 {
+  height: 60px;
+}/*# sourceMappingURL=general.css.map */

@@ -1,0 +1,38 @@
+.lineaFav {
+  background-color: blueviolet;
+  text-align: center;
+  color: #ffffff;
+  font-size: large;
+}
+
+.preguntas {
+  background-color: #ffffff;
+  background-size: contain;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.historiaTit {
+  text-align: center;
+  margin: 0px 55px;
+  margin-top: 50px;
+}
+
+.bavivon {
+  font-size: 50px;
+  padding: 30px;
+  color: #bb55ff;
+}
+
+.parr {
+  margin: 100px;
+  color: #a51eff;
+  margin-top: 30px;
+}
+
+.hisima {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: -80px;
+}/*# sourceMappingURL=nosotros.css.map */

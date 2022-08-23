@@ -1,0 +1,11 @@
+$colorprincipal: #8406eb;
+$colorsecundario: #e5c6ff;
+$colorterceario: #eb0671;
+
+@mixin flex($fd,$jc,$ai, $fw) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: $fw;
+}

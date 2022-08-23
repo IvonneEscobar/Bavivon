@@ -1,3 +1,108 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid mediumslateblue;
+  height: 90px;
+  align-items: center;
+  justify-content: center; }
+  header .nav {
+    display: flex; }
+    header .nav ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      header .nav ul li a {
+        text-decoration: none;
+        color: #7f0099;
+        list-style: none;
+        font-size: 20px;
+        padding: 50px; }
+
+.pie {
+  text-align: center;
+  background-color: #8406eb; }
+  .pie .iconos {
+    background-color: white;
+    display: flex;
+    justify-content: center; }
+    .pie .iconos .icon {
+      color: #8406eb;
+      font-size: 25px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px; }
+  .pie .logo2 {
+    height: 60px; }
+
+.imagenesCatalago {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.card {
+  margin: 50px; }
+
+.btn {
+  background-color: #ff4a4a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px; }
+
+.btn {
+  transition: transform 0.5s; }
+
+.btn:hover {
+  transform: scale(1.2); }
+
+.catalogo {
+  margin-top: 20px;
+  padding: 50px;
+  font-size: 50px; }
+
+.textito {
+  background-color: #7f0099;
+  padding: 10px;
+  border: 1px solid darkblue;
+  color: white; }
+
+.bodyCat {
+  background-color: whitesmoke; }
+
+.mainCat {
+  margin: 0px 5%; }
+
+.c {
+  width: 250px;
+  height: 250px;
+  padding: 45px; }
+
+.c {
+  transition: transform 1s; }
+
+.c:hover {
+  transform: scale(1.2); }
+
+.wow {
+  color: #6e2828;
+  text-decoration: none;
+  margin-top: 30px;
+  text-align: center; }
+
+.encuentraLink {
+  background-color: cornflowerblue;
+  text-align: center; }
+
+.encuentraLink2 {
+  color: #ffffff;
+  background-color: cornflowerblue;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0px auto; }
+
 .lineaFav {
   background-color: blueviolet;
   text-align: center;
@@ -56,7 +161,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: unset;
+  /*  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */ }
 
 .aDonde {
   text-align: center;
@@ -117,14 +227,14 @@ h2 {
   grid-template-rows: 150px 150px;
   justify-content: center;
   padding: 20px;
-  background-color: #b74aff; }
+  background-color: #8406eb; }
 
 .giganteImagen {
   width: 100%; }
 
 .tituloGrid {
   text-align: center;
-  background-color: #b74aff;
+  background-color: #8406eb;
   color: #ffffff; }
 
 .gridCaja1 {
@@ -168,9 +278,6 @@ h2 {
   width: 100%;
   margin-top: -30px;
   overflow: hidden; }
-
-.imagenesDelProducto {
-  background-color: aqua; }
 
 .logoIndex {
   height: 50px;
@@ -246,7 +353,7 @@ nav ul li a {
   margin-bottom: 10px; }
 
 .caja {
-  background-color: blueviolet;
+  background-color: #8406eb;
   color: #ffffff;
   width: 300px;
   height: 150px;
@@ -343,11 +450,7 @@ nav ul li a {
   margin-top: 35px; }
 
 .icon {
-  height: 40px;
+  height: 60px;
   display: flex;
   margin: 0px 20px;
   padding: 30px; }
-
-.cr {
-  background-color: #ebebeb;
-  color: #e2e2e2; }

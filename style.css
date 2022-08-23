@@ -269,16 +269,26 @@ nav ul li a {
 .iconos {
   display: flex;
   justify-content: center;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+.icon{
+  font-size: 20px;
+  color: #bb55ff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: #ddb0fa 2px solid;
+  border-radius: 70px;
 }
 
 .pie {
-  border: 1px solid;
   text-align: center;
 }
 
 .logo2 {
-  height: 60px;
-  margin-top: 35px;
+  height: 100px;
+  margin-top: 25px;
 }
 
 .icon {

@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid $colorsecundario;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    
+    .logoIndex {
+        height: 50px;
+        width: auto;
+        margin: 40px 50px;
+        padding: 0px;
+        background-color: $colorsecundario;
+      }
+
+
+    .nav {
+        display: flex;
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            li a {
+                text-decoration: none;
+                color: $colorprincipal;
+                list-style: none;
+                font-size: 20px;
+                padding: 50px;
+            }
+        }
+    }
+
+}
+
+.pie {
+    text-align: center; 
+    background-color: $colorprincipal;
+
+    .iconos {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+
+        .icon {
+            color: $colorprincipal;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+    }
+
+    .logo2 {
+        height: 60px;
+    }
+}

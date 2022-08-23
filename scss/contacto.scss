@@ -1,7 +1,7 @@
 
 
 .cuestionario {
-    background-color: #bb55ff;
+    background-color: $colorprincipal;
     padding: 20px;
     margin: 20px;
     margin-bottom: 40px;
@@ -23,10 +23,5 @@
    }
    .mainUbi{
     text-align: center;
-    
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex (column, center,center,unset);
    }

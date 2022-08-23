@@ -1,16 +1,14 @@
-* catalogo */
+
 .imagenesCatalago{
-  display: flex;
-  margin: 20px;
-  align-items: center;
   text-align: center;
-  justify-content: center;
+  margin: 20px;
+  @include flex (unset, center,center,unset);
 }
 .card{
   margin: 50px;
 }
 .btn{
-  background-color: #ff4a4a;
+  background-color: $colorterceario;
   color: #ffffff;
   border: none;
   border-radius: 10px;
@@ -28,12 +26,6 @@
   font-size: 50px;
 }
 
-.textito{
-  background-color: #7f0099;
-  padding: 10px;
-  border: 1px solid darkblue;
-  color: white;
-}
 
 .bodyCat {
   background-color: rgb(245, 245, 245);
@@ -59,20 +51,8 @@
 
 
 .wow {
-  color: #6e2828;
+  color: $colorterceario;
   text-decoration: none;
   margin-top: 30px;
   text-align: center;
-}
-.encuentraLink {
-  background-color: cornflowerblue;
-  text-align: center;
-}
-
-.encuentraLink2 {
-  color: #ffffff;
-  background-color: cornflowerblue;
-  text-decoration: none;
-  font-size: 25px;
-  margin: 0px auto;
 }
